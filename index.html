@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Registry</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Cash Registry Manager </h1>
+    <p>Enter the billing amount and cash given by the customer to get the minimum number of change exchange </p>
+    <label for="bill-amt">Billing amount:</label><br>
+    <input id="bill-amt" type="text" /> <br>
+    <label for="cash-given">Cash given:</label><br>
+    <input id="cash-given" type="text" /> <br>
+    <button id="btn-check">Check</button>
+    <table>
+        <caption>Return change:</caption>
+        <tr>
+        <th>Number of notes
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </th></tr>
+        <tr>
+        <th>
+            Available notes
+            <td>2000</td>
+            <td>500</td>
+            <td>100</td>
+            <td>20</td>
+            <td>10</td>
+            <td>5</td>
+            <td>1</td>
+        </th></tr>
+    </table>
+<script src="app.js"></script>
+</body>
+</html>
