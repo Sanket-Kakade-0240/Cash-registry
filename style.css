@@ -1,0 +1,121 @@
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.navigation {
+    background-color: darkgreen;
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-hmm {
+    font-weight: bold;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color:white;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+body{
+    
+}
+.contain{
+    /*text-align: center;*/
+    
+    /*display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-bottom: 0rem;
+    padding-bottom: 1rem;*/
+    text-align: center;
+    color: rgb(53, 177, 53);
+    
+}
+
+.description{
+    font-size: large;
+}
+.labeling{
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.input-box{
+    height: 4vh;
+    width: 20%;
+    
+}
+
+.btn{
+    margin: auto;
+    font-size: large;
+    margin: 2rem;
+    border-style: outset;
+    border-radius: 9px 9px 9px 9px;
+}
+
+table,tr th,tr td,tr { 
+    text-align: center; 
+    color: rgb(53, 177, 53);
+    border: 2px solid black;  
+    margin-left: auto;  
+    margin-right: auto;  
+    border-collapse: collapse;    
+    width: 500px;   
+    font-size: 20px;
+}
+
+.footer {
+    margin-top: 3.5%;
+    background-color: darkgreen;
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+    
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer .link {
+    color: black;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
