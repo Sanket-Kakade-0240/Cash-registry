@@ -16,7 +16,7 @@ function validateBillnCashAmt() {
             
             calcyChange(amtToReturn);
         }else {
-            displayMsg("The cash given should be atleast equal to bill amount.");
+            displayMsg("*The cash given should be atleast equal to bill amount*");
         }
     }else{
         displayMsg("Enter valid bill amount.");

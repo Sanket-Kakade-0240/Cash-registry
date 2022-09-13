@@ -29,6 +29,7 @@
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+    box-shadow: 10px 5px 5px darkgray ;
 }
 
 .navigation .nav-hmm {
@@ -47,9 +48,7 @@
     font-weight: bold;
 }
 
-body{
-    
-}
+
 .contain{
     /*text-align: center;*/
     
@@ -79,13 +78,23 @@ body{
 }
 
 .btn{
-    margin: auto;
+    
     font-size: large;
-    margin: 2rem;
-    border-style: outset;
-    border-radius: 9px 9px 9px 9px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 9px 9px 9px 9px rgb(53, 177, 53);
+    transition-duration: 0.4s;
 }
 
+.btn:hover {
+    background-color: rgb(53, 177, 53);
+    color: white;
+}
+.error-txt{
+    font-weight: bold;
+    font-size: larger;
+    color: red;
+}
 table,tr th,tr td,tr { 
     text-align: center; 
     color: rgb(53, 177, 53);
@@ -104,7 +113,7 @@ table,tr th,tr td,tr {
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
-    
+    box-shadow: 5px 5px 10px darkgray ;
 }
 
 .footer .footer-header {
