@@ -11,7 +11,7 @@ function validateBillnCashAmt() {
     console.log (billAmt.value);
     console.log(cashGiven.value);
     if (billAmt.value > 0 , cashGiven.value>0){
-        if (cashGiven.value >= billAmt.value){
+        if (Number(billAmt.value)<=Number(cashGiven.value)){
             var amtToReturn = cashGiven.value - billAmt.value;
             
             calcyChange(amtToReturn);
